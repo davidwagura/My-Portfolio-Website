@@ -21,70 +21,59 @@
             <div class="container">
                 <nav>
                     <ul id="sideMenu">
-                        <li>
-                            <a href="#header">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="header-text">
-                    <p>Software Developer</p>
-                    <h1>Hi, I'm <span>David</span>
-                        <br> from Kenya
-                    </h1>
+                <div class="header-content">
+                    <div class="header-text">
+                        <p>Software Developer</p>
+                        <h1>Hi, I'm <span>David</span><br>from Kenya</h1>
+                    </div>
                 </div>
+                <img src="./images/IMG_20240213_091142_HDR~2.jpg" class="header-image" alt="David Wanjohi">
             </div>
         </section>
-
-        <!-- About section -->
+        <!-- About Section -->
         <section id="about">
             <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="./images/IMG_20240213_091142_HDR~2.jpg">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p>I am a passionate and dedicated software developer with 2 years of experience in the
-                            industry. My
-                            expertise lies in web development, where I have honed my skills in various programming
-                            languages
-                            and frameworks. I have a strong foundation in HTML, CSS, and JavaScript, which allows me to
-                            create responsive and interactive web applications. In addition to these core technologies,
-                            I
-                            have extensive experience with Laravel and Vue.js. Laravel has been my go to framework, for
-                            backend development, enabling me to build robust and scalable server side applications. On
-                            the
-                            front end, Vue.js has been instrumental in creating dynamic user interfaces and enhancing
-                            the
-                            overall user experience. Throughout my career, I have worked on a variety of projects,
-                            ranging
-                            from small websites to complex web applications. I am constantly learning and adapting to
-                            new
-                            technologies to stay up to date with the latest trends in the industry.</p>
-                        <nav class="tab-titles">
-                            <a href="#skills" class="tab-links active-link">Skills</a>
-                            <a href="#experience" class="tab-links">Experience</a>
-                            <p class="tab-links">Experience</p>
-                            <p class="tab-links">Education</p>
-                        </nav>
-                        <!-- Skills -->
+                <div class="about-title-container">
+                    <h1 class="sub-title">About Me</h1>
+                    <img src="./images/IMG_20240213_091142_HDR~2.jpg" class="about-title-image">
+                </div>
+
+                <div class="about-content">
+                    <p>I am a passionate and dedicated software developer with 2 years of experience in the
+                        industry. My
+                        expertise lies in web development, where I have honed my skills in various programming
+                        languages
+                        and frameworks. I have a strong foundation in HTML, CSS, and JavaScript, which allows me to
+                        create responsive and interactive web applications. In addition to these core technologies,
+                        I
+                        have extensive experience with Laravel and Vue.js. Laravel has been my go to framework, for
+                        backend development, enabling me to build robust and scalable server side applications. On
+                        the
+                        front end, Vue.js has been instrumental in creating dynamic user interfaces and enhancing
+                        the
+                        overall user experience. Throughout my career, I have worked on a variety of projects,
+                        ranging
+                        from small websites to complex web applications. I am constantly learning and adapting to
+                        new
+                        technologies to stay up to date with the latest trends in the industry.</p>
+                </div>
+
+                <!-- Grid Sections -->
+                <div class="about-grid">
+                    <!-- Skills Section -->
+                    <div class="about-grid-item">
                         <div class="tab-contents active-tab" id="skills">
+                            <h2 class="tab-section-title">Skills</h2>
                             <ul class="skills-list">
                                 <li>
                                     <span>Frontend Frameworks and Libraries</span>
-                                    <br>
                                     <ul>
                                         <li>Experience in working with frontend frameworks such as Vue.js, and
                                             integrating
@@ -93,7 +82,6 @@
                                 </li>
                                 <li>
                                     <span>HTML/CSS</span>
-                                    <br>
                                     <ul>
                                         <li>Proficient in creating and styling web applications using HTML5 and CSS3,
                                             ensuring cross-browser compatibility and responsive design for optimal user
@@ -105,7 +93,6 @@
                                 </li>
                                 <li>
                                     <span>JavaScript</span>
-                                    <br>
                                     <ul>
                                         <li>Strong programming skills in JavaScript, including ES6+ features. Experience
                                             in
@@ -119,7 +106,6 @@
                                 </li>
                                 <li>
                                     <span>Vue.js</span>
-                                    <br>
                                     <ul>
                                         <li>Expertise in building modern, reactive user interfaces with Vue.js,
                                             leveraging
@@ -133,7 +119,6 @@
                                 </li>
                                 <li>
                                     <span>Backend Development: Laravel</span>
-                                    <br>
                                     <ul>
                                         <li>Competent in developing RESTful APIs and server-side logic using Laravel,
                                             adhering to MVC architecture principles.</li>
@@ -146,7 +131,6 @@
                                 </li>
                                 <li>
                                     <span>Version Control</span>
-                                    <br>
                                     <ul>
                                         <li>Proficient in using version control systems like Git to collaborate with
                                             team
@@ -155,7 +139,6 @@
                                 </li>
                                 <li>
                                     <span>Time Management</span>
-                                    <br>
                                     <ul>
                                         <li>Strong organizational skills with the ability to prioritize tasks and manage
                                             time effectively in fast-paced environments.</li>
@@ -163,7 +146,6 @@
                                 </li>
                                 <li>
                                     <span>Testing and Debugging</span>
-                                    <br>
                                     <ul>
                                         <li>Experience in debugging and testing frontend and backend code to identify
                                             and
@@ -173,12 +155,15 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- Experience -->
-                        <div class="tab-contents" id="experience">
+                    </div>
+
+                    <!-- Experience Section -->
+                    <div class="about-grid-item">
+                        <div class="tab-contents active-tab" id="experience">
+                            <h2 class="tab-section-title">Experience</h2>
                             <ul class="job-list">
                                 <li>
                                     <span>BENKIKO DAO (January 2024 – September 2024)</span>
-                                    <br>
                                     <h3>SOFTWARE DEVELOPER</h3>
                                     <ul>
                                         <li>Developed responsive web applications: Designed and implemented responsive
@@ -204,7 +189,6 @@
                                 </li>
                                 <li>
                                     <span>KUNTA COGNIILABS (September 2024 – Present)</span>
-                                    <br>
                                     <h3>FRONTEND DEVELOPER</h3>
                                     <ul>
                                         <li>
@@ -236,17 +220,23 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- Education -->
-                        <div class="tab-contents" id="education">
+                    </div>
+
+                    <!-- Education Section -->
+                    <div class="about-grid-item">
+                        <div class="tab-contents active-tab" id="education">
+                            <h2 class="tab-section-title">Education</h2>
                             <ul>
                                 <li>
-                                    <span>Year:2023 - present</span>
-                                    <br> Collage: Michuki Technical Training Institute <br>
+                                    <span>Year: 2023 - present</span>
+                                    <p>Collage: Michuki Technical Training Institute</p>
                                 </li>
                                 <h3>Certifications</h3>
-                                <li>Frontend Developer</li>
-                                <li>Vue.js</li>
-                                <li>Responsive web design.</li>
+                                <ul>
+                                    <li>Frontend Developer</li>
+                                    <li>Vue.js</li>
+                                    <li>Responsive web design.</li>
+                                </ul>
                             </ul>
                         </div>
                     </div>
@@ -319,7 +309,7 @@
                             </a>
                         </div>
                     </div>
-                    <a href="https://david-wanjohi-portfolio.vercel.app/" class="btn">See More</a>
+                    <a href="https://my-projects-lake.vercel.app/" class="btn">See More</a>
                 </div>
             </div>
         </section>
@@ -327,9 +317,9 @@
         <!-- contact -->
         <section id="contact">
             <div class="container">
-                <div class="row">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="contact-grid">
                     <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
                         <p>
                             <i class="fas fa-paper-plane"></i>davidwagura83@gmail.com
                         </p>
@@ -353,13 +343,12 @@
                         <a href="./images/David Wanjohi CV.pdf" download class="btn btn2">Download CV</a>
                     </div>
                     <div class="contact-right">
-                        <form action="mailto:davidwagura83@gmail.com" method="post" enctype="text/plain">
+                        <form>
                             <input type="text" name="Name" placeholder="Your Name" required>
                             <input type="email" name="Email" placeholder="Your email" required>
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                             <button type="submit" class="btn btn2">Submit</button>
                         </form>
-                        <span id="msg"></span>
                     </div>
                 </div>
             </div>
