@@ -28,7 +28,6 @@ body {
     height: 150px;
     border-radius: 10%;
     object-fit: cover;
-    border: 2px solid #ff004f;
     margin: 0 auto 20px;
 }
 
@@ -119,18 +118,6 @@ nav ul li a:hover::after {
     position: relative;
     display: inline-block;
     margin-bottom: 30px;
-}
-
-.about-title-image {
-    position: absolute;
-    right: -120px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #ff004f;
 }
 
 .about-content {
@@ -583,12 +570,6 @@ nav .fas {
     .about-grid {
         grid-template-columns: 1fr;
     }
-
-    .about-title-image {
-        width: 80px;
-        height: 80px;
-        right: -100px;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -598,8 +579,8 @@ nav .fas {
 
     .header-image {
         margin-top: 12px;
-        width: 240px;
-        height: 260px;
+        width: 300px;
+        height: 300px;
     }
 
     .header-text {
