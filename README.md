@@ -1,6 +1,6 @@
 # 🌍 David's Portfolio Website
 
-Welcome to my personal portfolio website! This site showcases my work as a software developer, my projects, services, and contact information. Built with HTML, CSS, and JavaScript.
+Welcome to my personal portfolio website! This site showcases my work as a software developer, my projects, services, and contact information. Built with HTML, CSS.
 
 ## 🔗 Live Demo
 
@@ -11,9 +11,8 @@ Welcome to my personal portfolio website! This site showcases my work as a softw
 
 ## 🚀 Features
 
-- 💼 Portfolio gallery (images & videos from Google Drive)
+- 💼 Portfolio gallery (images & cv file)
 - 📱 Responsive design for mobile and desktop
-- 🎥 Embedded video popup player
 - 📇 Contact form with email support
 - 🧭 Smooth scroll navigation
 
@@ -23,8 +22,6 @@ Welcome to my personal portfolio website! This site showcases my work as a softw
 
 - HTML5
 - CSS3 (Flexbox, Media Queries)
-- JavaScript (Vanilla)
-- Google Drive API (for media content)
 
 ---
 
